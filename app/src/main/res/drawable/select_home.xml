@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--两种方法的区别
+        @drawable/shouye_p：需要将资源文件放在drawable文件夹中
+        @mipmap/shouye_p：需要将资源文件放在xhdpi文件夹中
+
+        如图片本身已经带了文字，不想设置文字，只想设置图片，可以设置其background属性，控制其边距就可以
+        http://blog.sina.com.cn/s/blog_61e26bcb0100vgko.html
+
+    -->
+
+    <!--<item android:state_checked="true" android:drawable="@drawable/shouye_p"></item>-->
+    <!--<item android:state_checked="false" android:drawable="@drawable/shouye_u"></item>-->
+    <item android:state_checked="true" android:drawable="@mipmap/shouye_p"></item>
+    <item android:state_checked="false" android:drawable="@mipmap/shouye_u"></item>
+
+</selector>

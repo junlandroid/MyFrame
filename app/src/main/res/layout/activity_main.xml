@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/style_layout_mm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/tv_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="首页" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+
+        ></FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#b3b3b3" />
+
+    <!--两种方法的区别
+        @drawable/shouye_p：需要将资源文件放在drawable文件夹中
+        @mipmap/shouye_p：需要将资源文件放在xhdpi文件夹中
+
+        如图片本身已经带了文字，不想设置文字，只想设置图片，可以设置其background属性，控制其边距就可以
+        http://blog.sina.com.cn/s/blog_61e26bcb0100vgko.html
+        自定义标题栏
+        http://blog.csdn.net/g777520/article/details/51395445
+
+        <item android:state_checked="true" android:drawable="@drawable/shouye_p"></item>
+        <item android:state_checked="false" android:drawable="@drawable/shouye_u"></item>
+        <item android:state_checked="true" android:drawable="@mipmap/shouye_p"></item>
+        <item android:state_checked="false" android:drawable="@mipmap/shouye_u"></item>-->
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#f9f9f9"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:weightSum="4"
+        >
+
+        <RadioButton
+            android:id="@+id/btn_home"
+            android:drawableBottom="@drawable/select_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:textSize="0dp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/btn_classify"
+            android:drawableBottom="@drawable/select_classify"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:textSize="0dp"
+            />
+
+        <RadioButton
+            android:id="@+id/btn_discover"
+            android:drawableBottom="@drawable/select_discover"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:textSize="0dp"
+            />
+
+        <RadioButton
+            android:id="@+id/btn_me"
+            android:drawableBottom="@drawable/select_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:textSize="0dp"
+            />
+
+    </RadioGroup>
+</LinearLayout>

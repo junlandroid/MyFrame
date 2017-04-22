@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyFrame</string>
+    <string name="main_home">首页</string>
+    <string name="main_classify">发现</string>
+    <string name="main_discover">分类</string>
+    <string name="main_me">我的</string>
+</resources>
