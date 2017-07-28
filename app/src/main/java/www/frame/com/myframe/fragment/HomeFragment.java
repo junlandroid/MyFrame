@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import www.frame.com.myframe.R;
-import www.frame.com.myframe.activity.SecondActivity;
+import www.frame.com.myframe.activity.FlowLayoutActivity;
 
 /**
  * Created by Administrator on 2016/6/23 0023.
@@ -27,10 +27,12 @@ public class HomeFragment extends Fragment{
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(),SecondActivity.class));
+                startActivity(new Intent(getActivity(),FlowLayoutActivity.class));
             }
         });
         return view;
+
+
     }
 
 }

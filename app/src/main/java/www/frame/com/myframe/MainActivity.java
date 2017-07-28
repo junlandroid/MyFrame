@@ -2,34 +2,24 @@ package www.frame.com.myframe;
 
 import android.graphics.Color;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Window;
-import android.view.WindowManager;
-import android.widget.FrameLayout;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import www.frame.com.myframe.activity.BaseActivity;
-import www.frame.com.myframe.fragment.ClassifyFragment;
-import www.frame.com.myframe.fragment.DiscoverFragment;
 import www.frame.com.myframe.fragment.FragmentFactory;
-import www.frame.com.myframe.fragment.HomeFragment;
-import www.frame.com.myframe.fragment.MeFragment;
 
-public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedChangeListener {
+public class MainActivity extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {
 
     private RadioGroup mRadioGroup;
     TextView tvToolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        StatusBarCompat.compat(this, Color.BLUE);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
+        StatusBarCompat.compat(this, Color.BLUE);
 
         setContentView(R.layout.activity_main);
 

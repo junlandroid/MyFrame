@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--format是值该属性的取值类型:string,color,demension,integer,enum,reference,float,boolean,fraction,flag;-->
+
+    <!--1、自定义View的属性，首先在res/values/  下建立一个attrs.xml ， 在里面定义我们的属性和声明我们的整个样式。-->
+    <attr name="titleText"  format="string"/>
+    <attr name="titleTextColor" format="color"/>
+    <attr name="titleTextSize" format="dimension" />
+    
+    <declare-styleable name="CustomTextView">
+
+        <attr name="titleText" />
+        <attr name="titleTextColor" />
+        <attr name="titleTextSize" />
+    </declare-styleable>
+    
+</resources>

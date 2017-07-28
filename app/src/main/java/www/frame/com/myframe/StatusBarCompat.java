@@ -10,7 +10,8 @@ import android.view.ViewGroup;
 
 /**
  * Created by yuanjunliang on 2017/4/20.
- * description：
+ * description：Navigation导航栏
+ * 自定义Navigation  http://blog.csdn.net/g777520/article/details/51395445
  */
 
 public class StatusBarCompat {

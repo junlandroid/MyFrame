@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cassiel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <www.frame.com.myframe.views.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Welcome" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="IT工程师" />
+
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="学习ing" />
+
+
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="恋爱ing" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="挣钱ing" />
+
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="努力ing" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="I thick i can" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Just Do It" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="Cassiel My Love " />
+
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="I Fall in love with you Cassiel" />
+
+    </www.frame.com.myframe.views.FlowLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <www.frame.com.myframe.views.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            cassiel:titleText="Junl"
+            android:padding="10dp"
+            cassiel:titleTextColor="@color/yellow_arc"
+            cassiel:titleTextSize="35dp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

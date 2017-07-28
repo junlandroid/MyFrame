@@ -22,7 +22,6 @@
         android:text="跳转测试沉浸状态栏"
         android:id="@+id/btn"
         android:onClick="skipSecondActivity"
-        android:background="@null"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="128dp"
