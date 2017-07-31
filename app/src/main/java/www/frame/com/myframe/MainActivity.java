@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         mRadioGroup.setOnCheckedChangeListener(this);
         //默认第一个为选中
         mRadioGroup.check(R.id.btn_home);
-
     }
 
     @Override
