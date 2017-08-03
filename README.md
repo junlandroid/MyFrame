@@ -13,6 +13,5 @@
 
 ## 自定义ViewGroup,实现瀑布流效果
 ![image](https://github.com/junlandroid/MyFrame/raw/master/img/pic2.png)
-
 ## 自定义View，实现Android带消息提醒控件
 ![image](https://github.com/junlandroid/MyFrame/raw/master/img/pic3.png)
