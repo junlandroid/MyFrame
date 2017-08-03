@@ -9,6 +9,6 @@
 
 ![image](https://github.com/junlandroid/MyFrame/raw/master/img/pic1.png)
 
-也可以参考[CommonFrame](https://github.com/junlandroid/CommonFrame)
+也可以参考[CommonFrame](https://github.com/junlandroid/CommonFrame)中的实现
 
 
