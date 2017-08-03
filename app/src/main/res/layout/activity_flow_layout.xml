@@ -61,8 +61,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
+        android:layout_height="wrap_content"
         >
         <www.frame.com.myframe.views.CustomTextView
             android:layout_width="wrap_content"
@@ -73,6 +72,26 @@
             cassiel:titleTextSize="35dp"
             android:layout_centerVertical="true"
             />
+
+
     </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <www.frame.com.myframe.views.BadgeView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            cassiel:badgeText="99"
+            cassiel:badgeColor="#EA1D55"
+            cassiel:badgePosition="right_top"
+            cassiel:badgeBitmap="@mipmap/ic_launcher"
+            cassiel:badgeRadio="0.2"
+            cassiel:badgeTextColor="@android:color/white"
+            cassiel:badgeTextSize="13sp"
+            cassiel:badgeIsVisibility="true"
+            />
+    </RelativeLayout>
+
 
 </LinearLayout>

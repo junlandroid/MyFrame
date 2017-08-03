@@ -4,15 +4,33 @@
     <!--format是值该属性的取值类型:string,color,demension,integer,enum,reference,float,boolean,fraction,flag;-->
 
     <!--1、自定义View的属性，首先在res/values/  下建立一个attrs.xml ， 在里面定义我们的属性和声明我们的整个样式。-->
-    <attr name="titleText"  format="string"/>
-    <attr name="titleTextColor" format="color"/>
-    <attr name="titleTextSize" format="dimension" />
-    
     <declare-styleable name="CustomTextView">
-
-        <attr name="titleText" />
-        <attr name="titleTextColor" />
-        <attr name="titleTextSize" />
+        <attr name="titleText"  format="string"/>
+        <attr name="titleTextColor" format="color"/>
+        <attr name="titleTextSize" format="dimension" />
     </declare-styleable>
+
+    <!--Android自定义带消息提醒控件 -->
+    <declare-styleable name="BadgeView">
+        <attr name="badgeText" format="string"></attr>
+        <attr name="badgeBitmap" format="reference"></attr>
+        <attr name="badgeColor" format="color"></attr>
+        <attr name="badgeTextColor" format="color"></attr>
+        <attr name="badgeTextSize" format="dimension"></attr>
+        <attr name="badgeRadio" format="float"></attr>
+        <attr name="badgeIsVisibility" format="boolean"></attr>
+        <attr name="badgePosition">
+            <enum name="center" value="0"></enum>
+            <enum name="left_top" value="1"></enum>
+            <enum name="left_vertical" value="2"></enum>
+            <enum name="left_bottom" value="3"></enum>
+            <enum name="right_top" value="4"></enum>
+            <enum name="right_vertical" value="5"></enum>
+            <enum name="right_bottom" value="6"></enum>
+            <enum name="top_horizatal" value="7"></enum>
+            <enum name="bottom_horizatal" value="8"></enum>
+        </attr>
+    </declare-styleable>
+
     
 </resources>
