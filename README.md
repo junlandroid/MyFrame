@@ -7,5 +7,6 @@
 
     效果图：
 
-    ![image](https://github.com/junlandroid/MyFrame/raw/master/img/pic1.png)
+![image](https://github.com/junlandroid/MyFrame/raw/master/img/pic1.png)
+
 
