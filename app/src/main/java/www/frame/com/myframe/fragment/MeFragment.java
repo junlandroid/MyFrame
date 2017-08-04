@@ -6,9 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 
 import www.frame.com.myframe.R;
 
@@ -20,7 +18,7 @@ public class MeFragment extends Fragment{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_mine, container, false);
         RelativeLayout relativeLayout = (RelativeLayout) view.findViewById(R.id.llayout);
         relativeLayout.setBackgroundColor(getResources().getColor(R.color.colorAccent));
         return view;

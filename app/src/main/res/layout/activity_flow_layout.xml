@@ -80,6 +80,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <www.frame.com.myframe.views.BadgeView
+            android:id="@+id/badgeview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             cassiel:badgeText="99"
@@ -92,6 +93,13 @@
             cassiel:badgeIsVisibility="true"
             />
     </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ivQRcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+         />
 
 
 </LinearLayout>
